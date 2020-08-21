@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#head {
+    background: url(../img/img1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height :700px;
+
+}
+#head .dark-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    min-height :700px;
+    background-color: rgba(0,0,0,0.8);
+}
+#head .head-content{
+    padding-top: 150px;
+
+}
+#head .fa-check {
+    color:rgb(55, 17, 190);
+    background:#fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+ #explore .fa-check {
+    color:rgba(161, 15, 206, 0.8);
+    background:rgb(10, 10, 10);
+    padding: 3px;
+    border-radius: 3px;
+
+}
+#share .fa-check{
+    color: rgb(185, 21, 226);
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
